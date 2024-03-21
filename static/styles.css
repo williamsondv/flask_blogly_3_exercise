@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  margin-left: 3rem;
+}
+
+#user_icon {
+  height: 6rem;
+  width: 6rem;
+  margin-top: 0.5rem;
+}
+
+.container {
+  display: flex;
+}
+
+.add_edit_form_text {
+  margin-bottom: 0.5rem;
+}
+
+.save_button {
+  color: white;
+  background-color: rgb(114, 221, 114);
+  border-radius: 3px;
+  border: none;
+}
+
+.cancel_delete_button {
+  color: white;
+  background-color: rgb(189, 52, 52);
+  border-radius: 3px;
+  border: none;
+}
+
+.container_column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.text_field {
+  margin-bottom: 0.25rem;
+  width: 10.5rem;
+}
+
+.title_label {
+  margin-right: 2.1rem;
+}
+
+.content_label {
+  margin-right: 0.5rem;
+}
+
+.post_date {
+  font-size: x-small;
+}
+
+.post_edit_cancel {
+  background-color: rgb(25, 25, 241);
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.tags {
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  background-color: rgb(181, 190, 42);
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+
+.anchor_button {
+  background-color: rgb(185, 194, 67);
+  padding: 1px 6px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin-right: 0.75rem;
+  text-decoration: none;
+}
+
+#tag_div {
+  margin-bottom: 1rem;
+}

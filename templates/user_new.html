@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block title %}Add User{% endblock %} {% block
+content %}
+<div class="container_column">
+  <h1>Add User</h1>
+  <form action="/users/new" method="POST">
+    <div class="container_column">
+      <input
+        type="text"
+        class="text_field"
+        placeholder="first name"
+        name="first_name"
+      />
+      <input
+        type="text"
+        class="text_field"
+        placeholder="last name"
+        name="last_name"
+      />
+      <input
+        type="text"
+        class="text_field"
+        placeholder="img URL"
+        name="img_url"
+      />
+    </div>
+    <button class="save_button" type="submit">Submit</button>
+  </form>
+</div>
+{% endblock %}

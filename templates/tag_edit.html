@@ -1,0 +1,26 @@
+{% extends 'base.html' %} {% block title %}Edit Tag{% endblock %} {% block
+content %}
+<div class="container_column">
+  <h1>Edit Tag</h1>
+  <form method="POST">
+    <div class="add_edit_form_text">
+      <label for="title" class="title_label">Name</label
+      ><input
+        type="text"
+        class="text_field"
+        name="name"
+        value="{{ tag.name }}"
+      />
+    </div>
+    <div>
+      <input
+        type="submit"
+        formaction="/"
+        class="cancel_delete_button"
+        value="Cancel"
+      />
+      <input type="submit" class="save_button" value="Save" />
+    </div>
+  </form>
+</div>
+{% endblock %}

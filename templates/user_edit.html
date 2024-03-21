@@ -1,0 +1,16 @@
+{% extends 'base.html' %} {% block title %}Edit User{% endblock %} {% block
+content %}
+<div class="container_column">
+  <h1>Edit a User</h1>
+
+  <form method="POST">
+    <div class="container_column">
+      <input type="text" value="{{ user.first_name }}" name="first_name" />
+      <input type="text" value="{{ user.last_name }}" name="last_name" />
+      <input type="text" value="{{ user.img_url }}" name="img_url" />
+    </div>
+    <a href="/"><button class="cancel_delete_button">Cancel</button></a>
+    <button type="submit" class="save_button">Save</button>
+  </form>
+</div>
+{% endblock %}
